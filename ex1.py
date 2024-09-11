@@ -2,7 +2,10 @@
 
 bloco = int(input("Informe o número do seu bloco (1-4): "))
 
-if(bloco%2==0):
-    print("A caixa de água A abastece o seu bloco")
+if(bloco > 0 and bloco <5):
+    if(bloco%2==0):
+        print("A caixa de água A abastece o seu bloco")
+    else:
+        print("A caixa de água B abastece o seu bloco")
 else:
-    print("A caixa de água B abastece o seu bloco")
+    print("Bloco inválido")

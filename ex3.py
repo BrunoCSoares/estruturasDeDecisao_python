@@ -3,7 +3,7 @@
 valorMercadoria = float(input("Informe o valor da marcadoria: "))
 valorAtual = float(input("Informe o valor atual em mão: "))
 
-if(valorMercadoria > valorAtual):
+if(valorMercadoria >= valorAtual):
     print(f"O dinheiro não é suficiente. Falta R${valorMercadoria - valorAtual}")
 else:
     print(f"O dinheiro é suficiene. Sobra R${valorAtual - valorMercadoria}")

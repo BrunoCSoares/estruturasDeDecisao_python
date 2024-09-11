@@ -2,7 +2,10 @@
 
 bloco = int(input("Informe o número do seu bloco (1-20): "))
 
-if(bloco<11):
-    print("O seu síndico é o Sr. José")
+if(bloco > 0 and bloco < 21):
+    if(bloco<11):
+        print("O seu síndico é o Sr. José")
+    else:
+        print("O seu síndico é o Sr. Hamilton")
 else:
-    print("O seu síndico é o Sr. Hamilton")
+    print("Bloco inválido")
